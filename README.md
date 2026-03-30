@@ -1,0 +1,1 @@
+# Chile-Wildfire-Database
