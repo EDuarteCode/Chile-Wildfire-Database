@@ -13,7 +13,7 @@
 
 ## Overview
 
-This wildfire database for Chile originates from **CONAF** and was systematized and analyzed by **Garrido-Ruiz, C.** and **Duarte, E.** as part of the study:
+This wildfire database for Chile originates from **CONAF** (https://sit.conaf.cl) and was systematized and analyzed by **Garrido-Ruiz, C.** and **Duarte, E.** as part of the study:
 
 > *Persistent Wildfire Risk in Mediterranean Chile: Climate, Land-Use, and Spatial Patterns of Fire Recurrence*
 
