@@ -2,6 +2,8 @@
 
 This repository contains wildfire data supporting the manuscript *Wildfire Activity in Mediterranean Chile: Long-Term Burned-Area Dynamics, Ignition Causes, Initial Fuel, Burned Land Cover, and Municipal Fire Patterns* (PYRO-D-26-00029R1). The original data were provided by Chile’s Corporación Nacional Forestal (CONAF).
 
+The data supporting this study are available in the following link: https://www.dropbox.com/scl/fi/234kgmvb0a0nkko65mn8u/wildfire-event-records-2002-2003-to-2025-2026.zip?rlkey=g5d7bskdb9d59btau2jbx5r5i&dl=0
+
 ## Which file should I use?
 
 - `0. Consolidated-wildfire-database.xlsx` contains the English-language consolidated data used for the event-level analyses and pivot tables for key summaries. It covers 24 fire seasons, from 2002–2003 through 2025–2026.
