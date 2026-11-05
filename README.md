@@ -21,18 +21,12 @@ This wildfire database for Chile originates from **CONAF** (https://sit.conaf.cl
 
 ## Key Findings
 
-### 🔥 Fire activity
-- Wildfire activity in Mediterranean Chile is dominated by **anthropogenic ignitions (99%)**.
-- **Intentional fires** account for **35% of the total burned area**.
-
 ### 📅 Extreme fire seasons
 - Two extreme seasons, **2017** and **2023**, accounted for a disproportionate share of the burned area.
 - Burned area reached **570 thousand ha in 2017** and **429 thousand ha in 2023**.
 
 ### 📍 Spatial hotspots
 - Persistent wildfire hotspots are concentrated in **17 municipalities of south-central Chile**.
-- **Galvarino (Araucanía)** had the highest recurrence, with **14 seasons exceeding 1,000 ha**.
-- **Cauquenes (Maule)** had the largest cumulative burned area (**205,847 ha**).
 
 ### 🌲 Landscape context
 - Hotspots occur mainly in **plantation-dominated Coastal Range landscapes**.
