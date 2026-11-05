@@ -1,45 +1,67 @@
-# Chile Wildfire Database
+# Wildfire data for Mediterranean Chile
 
-## Persistent Wildfire Risk in Mediterranean Chile: Climate, Land-Use, and Spatial Patterns of Fire Recurrence
+This repository contains wildfire data supporting the manuscript *Wildfire Activity in Mediterranean Chile: Long-Term Burned-Area Dynamics, Ignition Causes, Initial Fuel, Burned Land Cover, and Municipal Fire Patterns* (PYRO-D-26-00029R1). The original data were provided by Chile’s Corporación Nacional Forestal (CONAF).
 
-**Claudia Garrido-Ruiz¹, Efrain Duarte²***  
+## Which file should I use?
 
-¹ Department of Soils, Plants & Climate, Utah State University, Logan, UT 84322, USA  
-² Department of Forest Engineering, Resources and Management, College of Forestry, Oregon State University, Corvallis, OR 97331, USA  
+- `0. Consolidated-wildfire-database.xlsx` contains the English-language consolidated data used for the event-level analyses and pivot tables for key summaries. It covers 24 fire seasons, from 2002–2003 through 2025–2026.
+- `0. Historical regional burned-area data 1977 - 2024` contains historical regional burned-area statistics, including the pre-2002 data used in the long-term analysis.
+- `0. Municipal_burned_area_normalized_2002-2026` contains municipal burned-area summaries expressed relative to municipal area.
+- `0. Removed_duplicate_records` documents the duplicate records excluded from the consolidated database.
+- `1. Base Datos IIFF 2002-2003`, `2. Base Datos IIFF 2003-2004`, and subsequent numbered files are the CONAF source spreadsheets, with one file per fire season. Their names and headers are in Spanish. `IIFF` stands for *incendios forestales* (wildfires).
 
-📧 **Corresponding author:** efrain.duarte@oregonstate.edu
+## Reading the data
 
----
+The source spreadsheets retain CONAF’s Spanish field names. For example, `Superficie total Has` means **total burned area (ha)**. A fire season runs from 1 July through 30 June of the following year. A fire affecting more than one municipality may appear in separate municipality-level entries, so record counts and counts of distinct fires can differ.
 
-## Overview
+See the manuscript and its Supplementary Materials for database selection, duplicate removal, analytical definitions, and the mapping from original CONAF ignition-cause labels to analytical categories.
 
-This wildfire database for Chile originates from **CONAF** (https://sit.conaf.cl) and was systematized and analyzed by **Garrido-Ruiz, C.** and **Duarte, E.** as part of the study:
+## Column glossary
 
-> *Wildfire Activity in Mediterranean Chile: Long-Term Burned-Area Dynamics, Ignition Causes, Initial Fuel, Burned Land Cover, and Municipal Fire Patterns*
+Use this glossary to interpret the column headers in the CONAF seasonal spreadsheets.
 
----
-
-## Key Findings
-
-### 📅 Extreme fire seasons
-- Two extreme seasons, **2017** and **2023**, accounted for a disproportionate share of the burned area.
-- Burned area reached **570 thousand ha in 2017** and **429 thousand ha in 2023**.
-
-### 📍 Spatial hotspots
-- Persistent wildfire hotspots are concentrated in **17 municipalities of south-central Chile**.
-
-### 🌲 Landscape context
-- Hotspots occur mainly in **plantation-dominated Coastal Range landscapes**.
-- These areas reflect the interaction of **fuel continuity** and **human activity**.
-
-### 🛠 Implication
-- Reducing wildfire risk will require the development of **more resilient landscapes**.
-
----
-
-## Citation
-
-If you use this database, please cite the associated study:
-
-**Garrido-Ruiz, C., & Duarte, E.**  
-*Wildfire Activity in Mediterranean Chile: Long-Term Burned-Area Dynamics, Ignition Causes, Initial Fuel, Burned Land Cover, and Municipal Fire Patterns.*
+| Spreadsheet header | English label |
+| --- | --- |
+| `Temporada` | Fire season |
+| `Region` | Region |
+| `Province` | Province |
+| `Municipality` | Municipality |
+| `Name of the Fire` | Fire name |
+| `Escenario` | Scenario |
+| `Coord. operativas UTM E` | Operational UTM easting |
+| `Coord. operativas UTM N` | Operational UTM northing |
+| `Huso op.` | Operational UTM zone |
+| `Coord. operativas Lat` | Operational latitude |
+| `Coord. operativas Lon` | Operational longitude |
+| `Combustible inicial` | Initial fuel |
+| `Causa general` | General ignition cause |
+| `Pino 0 a 10` | Pine plantations, ages 0–10 years |
+| `Pino 11 a 17` | Pine plantations, ages 11–17 years |
+| `Pino 18 o más` | Pine plantations, ages 18 years and older |
+| `Eucalipto` | Eucalyptus plantations |
+| `Otras plantaciones` | Other plantations |
+| `Subtotal plantaciones` | Plantation subtotal |
+| `Arbolado` | Tree cover |
+| `Matorral` | Shrubland |
+| `Pastizal` | Grassland |
+| `Subtotal vegetación natural` | Natural vegetation subtotal |
+| `Agrícola` | Agricultural land |
+| `Desechos` | Waste and debris |
+| `Subtotal otras superficies` | Other surfaces subtotal |
+| `Superficie total Has` | Total burned area (ha) |
+| `Inicio` | Fire start |
+| `Detección` | Detection |
+| `Aviso` | Notification |
+| `Despacho` | Dispatch |
+| `Salida` | Departure |
+| `Arribo` | Arrival |
+| `Primer ataque` | Initial attack |
+| `Control` | Fire control |
+| `Extinción` | Fire extinguishment |
+| `Temperatura °C` | Temperature (°C) |
+| `Humedad %` | Relative humidity (%) |
+| `Exposición` | Slope aspect |
+| `Dirección viento` | Wind direction |
+| `Velocidad viento Km/hra` | Wind speed (km/h) |
+| `Topografía` | Topography |
+| `Pendiente` | Slope |
